@@ -42,6 +42,7 @@ class PolarCode:
     CRC_polynomials = {
         8: np.asarray([1, 1, 1, 0, 1, 0, 1, 0, 1], dtype='uint8'),
         16: np.asarray([1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1], dtype='uint8'),
+        24: np.asarray([1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1], dtype='uint8')
     }
 
     def __init__(self, n, K, channel, construction_method, CRC_len=0):
