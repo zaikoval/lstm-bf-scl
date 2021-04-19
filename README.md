@@ -22,6 +22,8 @@ Implementation of [Generalized Fast Decoding of Polar Codes](https://arxiv.org/a
 - Models 
     - polar_linear_model.pth - LNN
     - polar_conv.pth - CNN 
+- Py files
+    - generalized_msc.py - Generalized Fase Decoding implementation _msc_decode()
 
 
 
